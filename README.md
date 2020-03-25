@@ -1,6 +1,3 @@
-# be-the-hero-backend
-Backend of project be the hero
-
 # Be The Hero
 > Plataform to help who really needs!
 
