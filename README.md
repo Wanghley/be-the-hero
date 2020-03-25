@@ -4,65 +4,57 @@ Backend of project be the hero
 # Be The Hero
 > Plataform to help who really needs!
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 This web application is able to register ONGs and Incidents in order to user provide help to these problems.
 
-<>(![](header.png))
+(![](frontend/src/assets/logo.svg))
 
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+This is an entire web application used to help non-governamental organizations in incidents. These application is made to be totally used in the Simple Page Application mode(SPA), with restful applications and React in web-frontend.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+For development, this instructions are for Linux and inside the VSCode IDE, but it can be adapted to Windows if it is your OS.
 
 ```sh
-make install
-npm test
+git clone https://github.com/Wanghley/be-the-hero.git
+```
+- For backend:
+```sh
+cd background
+npm start
+```
+
+- For frontend:
+```sh
+cd frontend
+npm start
 ```
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
 * 0.1.0
     * The first proper release
     * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Wanghley – [@wanghley](https://instagram.com/wanghley) – wanghleys@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the Creative Commons Zero v1.0 Universal license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/wanghley](https://github.com/wanghley/)
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
+1. Fork it (<https://github.com/Wanghley/be-the-hero/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+[wiki]: https://github.com/wanghley/be-the-hero/wiki
