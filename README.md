@@ -18,6 +18,7 @@ For development, this instructions are for Linux and inside the VSCode IDE, but 
 
 ```sh
 git clone https://github.com/Wanghley/be-the-hero.git
+cd be-the-hero
 ```
 - For backend:
 ```sh
