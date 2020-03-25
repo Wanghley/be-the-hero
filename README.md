@@ -3,7 +3,7 @@
 
 This web application is able to register ONGs and Incidents in order to user provide help to these problems.
 
-(![](frontend/src/assets/logo.svg))
+![](frontend/src/assets/logo.svg)
 
 
 ## Usage example
