@@ -1,9 +1,9 @@
-# Be The Hero
+![](frontend/src/assets/logo.svg)
 > Plataform to help who really needs!
 
 This web application is able to register ONGs and Incidents in order to user provide help to these problems.
 
-![](frontend/src/assets/logo.svg)
+![](frontend/src/assets/heroes.png)
 
 
 ## Usage example
