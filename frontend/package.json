@@ -1,5 +1,5 @@
 {
-  "name": "front2",
+  "name": "front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=process.env.PORT && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
