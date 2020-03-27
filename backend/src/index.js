@@ -28,6 +28,7 @@
 const express = require('express');
 const routes = require('./routes'); //importa as rotas
 const cors = require('cors');
+const { errors } = require('celebrate');
 const app = express();
 
 app.use(cors());
@@ -36,5 +37,6 @@ app.use(express.json()); //configura para receber jsons em request
 
 app.use(routes);
 
+app.use(errors());
 
 app.listen(process.env.PORT||5000);
