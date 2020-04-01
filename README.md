@@ -23,14 +23,24 @@ cd be-the-hero
 - For backend:
 ```sh
 cd background
+npm install
 npm start
 ```
 
 - For frontend:
 ```sh
 cd frontend
+npm install
 npm start
 ```
+
+- For mobile:
+```sh
+cd mobile
+npm install
+expo start
+```
+OBS: for mobile, you must have the expo app installed in your phone
 
 ## Release History
 
