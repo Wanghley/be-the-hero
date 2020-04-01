@@ -46,7 +46,8 @@ OBS: for mobile, you must have the expo app installed in your phone
 
 * 0.1.0
     * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
+    * Release available for use
+    * Production test
 
 ## Meta
 
